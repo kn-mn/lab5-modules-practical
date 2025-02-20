@@ -1,9 +1,6 @@
-// Part 2 (a)
+// Part 4 (a)
 
 import { add, subtract } from '../modules/mathModule.js';
-
-// Part 3 (a)
-
 import { toLowerCase , toUpperCase } from '../modules/stringModule.js';
 
 // Part 5 (a)
@@ -22,19 +19,17 @@ import { addAndLogUpper } from '../modules/mathModule.js';
 
 import { numMaxMultiplyUppercase } from '../modules/mathModule.js';
 
-// Part 2 (b)
+// Part 4 (b)
 
 console.log('add: ', add(2, 2));
 console.log('subtract', subtract(2,2));
 
+console.log('toUppercase: ', toUpperCase('testing'));
+console.log('toLowerCase: ', toLowerCase('TESTING'));
+
 // Part 5 (b)
 
 console.log('multiply: ', multiply(4, 5));
-
-// Part 3 (b)
-
-console.log('toUppercase: ', toUpperCase('testing'));
-console.log('toLowerCase: ', toLowerCase('TESTING'));
 
 // Part 6 (b)
 
