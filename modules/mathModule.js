@@ -29,12 +29,3 @@ export function addAndLogUpper(a, b) {
     const result = add(a, b);
     console.log(toUpperCase(result.toString()));
 }
-
-// Part 8 (b)
-
-export function numMaxMultiplyUppercase(arr){
-    const mid = Math.floor(arr.length/2);
-    const midNum = arr[mid];
-    const numToMaxMultiply = (findMax(arr) * midNum);
-    console.log(toUpperCase(numToMaxMultiply.toString()));
-}

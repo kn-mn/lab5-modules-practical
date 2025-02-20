@@ -15,10 +15,6 @@ import { findMax , reverseArray } from '../modules/arrayModule.js';
 
 import { addAndLogUpper } from '../modules/mathModule.js';
 
-// Part 8 (b)
-
-import { numMaxMultiplyUppercase } from '../modules/mathModule.js';
-
 // Part 4 (b)
 
 console.log('add: ', add(2, 2));
@@ -40,6 +36,10 @@ console.log('reversed: ', reverseArray([1, 2, 3]));
 
 addAndLogUpper(10, 20);
 
-// Part 8 (b)
+// Part 8
 
-numMaxMultiplyUppercase([0,1,1,2,3,5,8,13]);
+const finalChallenge = [0,1,1,2,3,5,8,13];
+let midNum = Math.floor(finalChallenge.length/2);
+let maxNum = findMax(finalChallenge);
+let multipliedNum = multiply(maxNum, midNum);
+console.log(toUpperCase(multipliedNum.toString()));
