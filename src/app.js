@@ -39,7 +39,8 @@ addAndLogUpper(10, 20);
 // Part 8
 
 const finalChallenge = [0,1,1,2,3,5,8,13];
-let midNum = Math.floor(finalChallenge.length/2);
+let mid = Math.floor(finalChallenge.length/2);
+let midNum = finalChallenge[mid];
 let maxNum = findMax(finalChallenge);
 let multipliedNum = multiply(maxNum, midNum);
 console.log(toUpperCase(multipliedNum.toString()));

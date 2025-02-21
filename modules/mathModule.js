@@ -2,10 +2,6 @@
 
 import { toUpperCase } from './stringModule.js';
 
-// Part 8 (b)
-
-import { findMax } from './arrayModule.js';
-
 // Part 2
 
 export function add(a, b) {
